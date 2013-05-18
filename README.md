@@ -14,9 +14,8 @@ Trigger the fancyfile via JavaScript
 Markup
 -----------------
 
-```
     &lt;input name=&quot;uploadfile&quot; type=&quot;file&quot; data-toggle=&quot;fancyfile&quot; data-text=&quot;false&quot; class=&quot;input-xlarge btn-primary&quot;&gt;
-```
+
 
 Options
 -----------------
@@ -80,19 +79,15 @@ Installation
 * Install with Twitter's [Bower](http://twitter.github.com/bower): `bower install bootstrap`.
 
 #### Download this plugin.
-* [Download the latest release](https://github.com/biggora/bootstrap-ajax-typeahead/zipball/master)
-* [Clone in Windows](github-windows://openRepo/https://github.com/biggora/bootstrap-ajax-typeahead)
-* Clone the repo: `git clone git://github.com/biggora/bootstrap-ajax-typeahead.git`
+* [Download the latest release](https://github.com/biggora/bootstrap-fancyfile/zipball/master)
+* [Clone in Windows](github-windows://openRepo/https://github.com/biggora/bootstrap-fancyfile)
+* Clone the repo: `git clone git://github.com/biggora/bootstrap-fancyfile.git`
 
 #### Include files in your HTML. The minimum required for this plugin are:
 
     <link href="/path/to/bootstrap.css" rel="stylesheet">
+    <link href="/path/to/bootstrap-fancyfile.css" rel="stylesheet">
     <script src="/path/to/jquery.js" type="text/javascript"></script>
-    <script src="/path/to/bootstrap-typeahead.js" type="text/javascript"></script>
-
-#### Execute the plugin:
-```javascript
-    $('input.typeahead').typeahead(options);
-```
+    <script src="/path/to/bootstrap-fancyfile.js" type="text/javascript"></script>
 
 
