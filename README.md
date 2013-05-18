@@ -24,42 +24,42 @@ Options
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-text=""</code>.
 
 
-                <table class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th style="width: 100px;">Name</th>
-                            <th style="width: 100px;">type</th>
-                            <th style="width: 50px;">default</th>
-                            <th>description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>text</td>
-                            <td>boolean | string</td>
-                            <td>Select File</td>
-                            <td>insert text into the fancyfile button.</td>
-                        </tr>
-                        <tr>
-                            <td>icon</td>
-                            <td>boolean | string</td>
-                            <td>icon-file</td>
-                            <td>insert icon into the fancyfile button.</td>
-                        </tr>
-                        <tr>
-                            <td>style</td>
-                            <td>string</td>
-                            <td></td>
-                            <td>apply button style to the fancyfile button.</td>
-                        </tr>
-                        <tr>
-                            <td>placeholder</td>
-                            <td>boolean | string</td>
-                            <td>Select File…</td>
-                            <td>apply placeholder to the fancyfile fake input.</td>
-                        </tr>
-                    </tbody>
-                </table>
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th style="width: 100px;">Name</th>
+<th style="width: 100px;">type</th>
+<th style="width: 50px;">default</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td>boolean | string</td>
+<td>Select File</td>
+<td>insert text into the fancyfile button.</td>
+</tr>
+<tr>
+<td>icon</td>
+<td>boolean | string</td>
+<td>icon-file</td>
+<td>insert icon into the fancyfile button.</td>
+</tr>
+<tr>
+<td>style</td>
+<td>string</td>
+<td></td>
+<td>apply button style to the fancyfile button.</td>
+</tr>
+<tr>
+<td>placeholder</td>
+<td>boolean | string</td>
+<td>Select File…</td>
+<td>apply placeholder to the fancyfile fake input.</td>
+</tr>
+</tbody>
+</table>
 
 Required
 -----------------
