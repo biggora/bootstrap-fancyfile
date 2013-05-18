@@ -14,8 +14,9 @@ Trigger the fancyfile via JavaScript
 Markup
 -----------------
 
-   <input type="file" data-toggle="fancyfile" class="btn-primary">
-
+```html
+    &lt;input type="file" data-toggle="fancyfile" data-style="btn-primary"&gt;
+```
 
 Options
 -----------------
