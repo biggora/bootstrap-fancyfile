@@ -15,7 +15,7 @@ Markup
 -----------------
 
 ```html
-    <input type="file" data-toggle="fancyfile" data-style="btn-primary">
+    <input name="upload" type="file" data-toggle="fancyfile" data-style="btn-primary">
 ```
 
 Options
