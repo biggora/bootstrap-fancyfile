@@ -14,7 +14,7 @@ Trigger the fancyfile via JavaScript
 Markup
 -----------------
 
-    &lt;input name=&quot;uploadfile&quot; type=&quot;file&quot; data-toggle=&quot;fancyfile&quot; data-text=&quot;false&quot; class=&quot;input-xlarge btn-primary&quot;&gt;
+   <input type="file" data-toggle="fancyfile" class="btn-primary">
 
 
 Options
@@ -23,7 +23,7 @@ Options
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code>data-</code>, as in <code>data-text=""</code>.
 
 
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped" style="width:100%">
 <thead>
 <tr>
 <th style="width: 100px;">Name</th>
