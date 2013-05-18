@@ -1,0 +1,18 @@
+{
+    "name": "bootstrap-fancy-file",
+    "description": "Twitter Fancy file Plugin",
+    "version": "0.0.1",
+    "private": true,
+    "keywords": [ "bootstrap", "file", "input", "plugin" ],
+    "homepage": "https://github.com/biggora/bootstrap-fancy-file",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/biggora/bootstrap-fancy-file.git"
+    },
+    "author": {
+        "name": "Alexey Gordeyev",
+        "url": "https://www.gordejev.lv"
+    },
+    "license": "Apache",
+    "dependencies": {}
+}
