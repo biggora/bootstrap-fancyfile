@@ -94,8 +94,12 @@ Installation
 
 ### Recommend extensions
 
-- [TrinteJS](http://www.trintejs.com/) - Javascrpt MVC Framework for Node.JS
-- [CaminteJS](http://www.camintejs.com/) - Cross-db ORM for NodeJS
+- [Bootstrap Ajax Typeahead Plugin](https://github.com/biggora/bootstrap-ajax-typeahead)
+- [TrinteJS - Javascrpt MVC Framework for Node.JS](http://www.trintejs.com/)
+- [CaminteJS - Cross-db ORM for NodeJS](http://www.camintejs.com/)
+- [MongoDB Session Storage for ExpressJS](https://github.com/biggora/express-mongodb)
+- [Middleware exposing user-agent for NodeJS](https://github.com/biggora/express-useragent)
+- [2CO NodeJS adapter for 2checkout API payment gateway](https://github.com/biggora/2co)
 
 
 ### Startups & Apps
