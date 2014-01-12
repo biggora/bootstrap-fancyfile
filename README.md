@@ -1,7 +1,7 @@
-[Twitter Bootstrap Fancy File Plugin](http://biggora.github.io/bootstrap-fancyfile/)
+[Twitter Bootstrap Fancy File Plugin](http://plugins.upbootstrap.com/bootstrap-fancyfile/)
 ============
 
-Browsers do not let you style file inputs. Fancy File Plugin fixes this problem. It is written using JavaScript and jQuery. See [Fancy File Plugin demo](http://biggora.github.io/bootstrap-fancyfile/).
+Browsers do not let you style file inputs. Fancy File Plugin fixes this problem. It is written using JavaScript and jQuery. See [Fancy File Plugin demo](http://plugins.upbootstrap.com/bootstrap-fancyfile/).
 
 How to Use
 ----------
