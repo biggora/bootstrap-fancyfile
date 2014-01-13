@@ -1,31 +1,12 @@
-/*
- * The MIT License
- *
- * Copyright 2013 Alexey Gordeyev <aleksej@gordejev.lv>.
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
+/*!
+ * Fancy File v0.0.2 (https://github.com/biggora/bootstrap-fancyfile)
+ * Copyright 2012-2014 Alexey Gordeyev
+ * Licensed under MIT (https://github.com/biggora/bootstrap-fancyfile/blob/master/LICENSE)
+ * Plugin demo http://plugins.upbootstrap.com/bootstrap-fancyfile
  */
-
 !function ($) {
 
     "use strict"; // jshint ;_;
-
 
     /* FANCYFILE CLASS DEFINITION
   * ========================= */
@@ -33,17 +14,13 @@
     var fancyfile = '[data-toggle=fancyfile]'
     , FancyFile = function (element, options) {
         var $el = $(element);
-        this.options = $.extend({}, $.fn.fancyfile.defaults, options)
+        this.options = $.extend({}, $.fn.fancyfile.defaults, options);
         this.makeFancy($el);
-    }
+    };
 
     FancyFile.prototype = {
-
-        constructor: FancyFile
-
-        ,
+        constructor: FancyFile,
         makeFancy : function (element) {
-
             var $fancy = $(this.options.container);
             var $clone = element.clone( true );
             var classes = $clone.attr('class');
@@ -104,48 +81,48 @@
                 $(this).parent().find('.fake-input').removeClass('active');
                 $(this).parent().find('.btn').removeClass('active');
             });
-            $clone.on('change.fancyfile.data-api', FancyFile.prototype.change)
+            $clone.on('change.fancyfile.data-api', FancyFile.prototype.change);
         },
         change: function (e) {
             var file = this.files[0],
             name = file.name;
             $(this).parent().find('.fake-input').val(name);
         }
-    }
+    };
 
     /* FANCYFILE PLUGIN DEFINITION
    * ========================== */
 
-    var old = $.fn.fancyfile
+    var old = $.fn.fancyfile;
 
     $.fn.fancyfile = function (options) {
         return this.each(function () {
             var $this = $(this)
             , data = $this.data('fancyfile');
-            if (!data) $this.data('fancyfile', (data = new FancyFile(this, options)))
-            if (typeof options == 'string') data[options].call($this)
-        })
-    }
+            if (!data) $this.data('fancyfile', (data = new FancyFile(this, options)));
+            if (typeof options === 'string') data[options].call($this);
+        });
+    };
 
     $.fn.fancyfile.defaults = {
         container   : '<div class="fancy-file"><div class="fake-file"></div></div>',
-        fakeInput   : '<input class="fake-input" type="text" />',
+        fakeInput   : '<input class="fake-input form-control" type="text" />',
         fakeButton  : '<button class="btn"></button>',
         text        : 'Select File',
-        icon        : '<i class="icon-file"></i>',
+        icon        : '<i class="icon-file glyphicon glyphicon-file"></i>',
         style       : '',
         placeholder : 'Select File…'
-    }
+    };
 
-    $.fn.fancyfile.Constructor = FancyFile
+    $.fn.fancyfile.Constructor = FancyFile;
 
     /* FANCYFILE NO CONFLICT
    * ==================== */
 
     $.fn.fancyfile.noConflict = function () {
-        $.fn.fancyfile = old
-        return this
-    }
+        $.fn.fancyfile = old;
+        return this;
+    };
 
     /* DATA-API APPLY TO STANDARD FANCYFILE ELEMENTS
    * ============== */

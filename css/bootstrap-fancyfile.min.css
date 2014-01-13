@@ -1,7 +1,8 @@
-/*
- * The MIT License
- *
- * Copyright 2013 Alexey Gordeyev <aleksej@gordejev.lv>.
- *
+/*!
+ * Fancy File v0.0.2 (https://github.com/biggora/bootstrap-fancyfile)
+ * Copyright 2012-2014 Alexey Gordeyev
+ * Licensed under MIT (https://github.com/biggora/bootstrap-fancyfile/blob/master/LICENSE)
+ * Plugin demo http://plugins.upbootstrap.com/bootstrap-fancyfile
  */
-.fancy-file{display:block;position:relative}.fancy-file input[type="file"]{position:relative;text-align:right;-moz-opacity:0;filter:alpha(opacity:0);opacity:0;z-index:2;cursor:pointer}.fancy-file div{position:absolute;top:0;left:0;z-index:1;height:36px}.fancy-file input[type="text"],.fancy-file button,.fancy-file .btn{display:inline-block;margin-bottom:0;vertical-align:middle}.fancy-file input[type="text"]{-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px}.fancy-file button,.fancy-file .btn{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0}
+
+.fancy-file{display:block;position:relative}.fancy-file input[type=file]{position:relative;text-align:right;-moz-opacity:0;filter:alpha(opacity:0);opacity:0;z-index:2;cursor:pointer}.fancy-file div{position:absolute;top:0;left:0;z-index:1;height:36px}.fancy-file input[type=text],.fancy-file button,.fancy-file .btn{display:inline-block;margin-bottom:0;vertical-align:middle}.fancy-file input[type=text]{-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px}.fancy-file button,.fancy-file .btn{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0}
