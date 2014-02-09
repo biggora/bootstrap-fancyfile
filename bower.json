@@ -1,0 +1,35 @@
+{
+  "name": "bs-fancyfile",
+  "version": "0.0.2",
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap": ">= 3.0.0"
+  },
+  "homepage": "https://github.com/biggora/bootstrap-fancyfile",
+  "authors": [
+        "Alexey Gordeyev <https://github.com/biggora>"
+  ],
+  "description": "Browsers do not let you style file inputs. Fancy File Plugin fixes this problem.",
+  "main": [
+        "./js/bootstrap-fancyfile.js",
+        "./css/bootstrap-fancyfile.css"
+  ],
+  "keywords": [
+    "fancyfile",
+    "bootstrap",
+    "plugin",
+    "file",
+    "input"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo",
+    "src",
+    "Gruntfile.js"
+  ]
+}
