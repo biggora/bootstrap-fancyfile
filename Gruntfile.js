@@ -1,4 +1,8 @@
-
+/*!
+ * Bootstrap Fancy File's Gruntfile
+ * Copyright 2013-2014 Alexey Gordeyev
+ * Licensed under MIT (https://github.com/biggora/bootstrap-fancyfile/blob/master/LICENSE)
+ */
 module.exports = function(grunt) {
     'use strict';
 

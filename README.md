@@ -84,6 +84,7 @@ Installation
 * [Download the latest release](https://github.com/biggora/bootstrap-fancyfile/zipball/master)
 * [Clone in Windows](github-windows://openRepo/https://github.com/biggora/bootstrap-fancyfile)
 * Clone the repo: `git clone git://github.com/biggora/bootstrap-fancyfile.git`
+* Install with Bower: `bower install bs-fancyfile`
 
 #### Include files in your HTML. The minimum required for this plugin are:
 
@@ -96,6 +97,7 @@ Installation
 ### Recommend extensions
 
 - [Bootstrap Ajax Typeahead Plugin](https://github.com/biggora/bootstrap-ajax-typeahead)
+- [Bootstrap Select Plugin](http://biggora.github.io/bootstrap-select/)
 - [TrinteJS - Javascrpt MVC Framework for Node.JS](http://www.trintejs.com/)
 - [CaminteJS - Cross-db ORM for NodeJS](http://www.camintejs.com/)
 - [MongoDB Session Storage for ExpressJS](https://github.com/biggora/express-mongodb)
