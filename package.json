@@ -20,6 +20,9 @@
             "url": "https://github.com/biggora/bootstrap-fancyfile/blob/master/LICENSE"
         }
     ],
+    "scripts": {
+       "install": "bower install"
+    },
     "dependencies": {},
     "devDependencies": {
         "grunt": "~0.4.2",
