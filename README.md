@@ -148,3 +148,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - Report issues on the [github issues](https://github.com/biggora/bootstrap-fancyfile/issues) page.
 
 [![Analytics](https://ga-beacon.appspot.com/UA-22788134-5/fancyfile/readme)](https://github.com/igrigorik/ga-beacon)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/biggora/bootstrap-fancyfile/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
